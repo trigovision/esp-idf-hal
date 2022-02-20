@@ -27,7 +27,7 @@ mutex-trait = { version = "0.2", optional = true, default-features = false }
 embedded-hal = "=1.0.0-alpha.6"
 embedded-hal-0-2 = { package = "embedded-hal", version = "0.2", features = ["unproven"] }
 embedded-svc = { version = "0.16.4", optional = true, default-features = false }
-esp-idf-sys = { git = "git@github.com:trigovision/esp-idf-sys-1.git", branch = "custom", optional = true, default-features = false, features = ["pio"] }
+esp-idf-sys = { git = "https://github.com/trigovision/esp-idf-sys-1.git", branch = "custom", optional = true, default-features = false, features = ["pio"] }
 critical-section = { version = "0.2.5", optional = true, features = ["custom-impl"] }
 embassy = { version = "0", optional = true }
 # The real version is this one and it needs to be patched into the binary crate:
